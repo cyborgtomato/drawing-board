@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E530F3CE1A63CC8F00D04103 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E530F3CD1A63CC8F00D04103 /* Default-568h@2x.png */; };
+		E54171CB1A0C98DD0034DC04 /* DBBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E54171CA1A0C98DD0034DC04 /* DBBoardView.m */; };
+		E54171CF1A0CA5810034DC04 /* DBToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E54171CE1A0CA5810034DC04 /* DBToolBarView.m */; };
+		E54171D31A0CB4930034DC04 /* DBWidthSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E54171D21A0CB4930034DC04 /* DBWidthSlider.m */; };
+		E54171D71A0CB80D0034DC04 /* DBColorPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E54171D61A0CB80D0034DC04 /* DBColorPickerVC.m */; };
 		E5CE60141A0C742D006413E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE60131A0C742D006413E6 /* main.m */; };
 		E5CE60171A0C742D006413E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE60161A0C742D006413E6 /* AppDelegate.m */; };
 		E5CE601A1A0C742D006413E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE60191A0C742D006413E6 /* ViewController.m */; };
-		E5CE601D1A0C742D006413E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CE601B1A0C742D006413E6 /* Main.storyboard */; };
 		E5CE601F1A0C742D006413E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CE601E1A0C742D006413E6 /* Images.xcassets */; };
-		E5CE60221A0C742D006413E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5CE60201A0C742D006413E6 /* LaunchScreen.xib */; };
 		E5CE602E1A0C742D006413E6 /* DrawingBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CE602D1A0C742D006413E6 /* DrawingBoardTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E530F3CD1A63CC8F00D04103 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E54171C91A0C98DD0034DC04 /* DBBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBBoardView.h; path = Classes/View/Board/DBBoardView.h; sourceTree = "<group>"; };
+		E54171CA1A0C98DD0034DC04 /* DBBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBBoardView.m; path = Classes/View/Board/DBBoardView.m; sourceTree = "<group>"; };
+		E54171CD1A0CA5810034DC04 /* DBToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBToolBarView.h; path = Classes/View/ToolBar/DBToolBarView.h; sourceTree = "<group>"; };
+		E54171CE1A0CA5810034DC04 /* DBToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBToolBarView.m; path = Classes/View/ToolBar/DBToolBarView.m; sourceTree = "<group>"; };
+		E54171D11A0CB4930034DC04 /* DBWidthSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBWidthSlider.h; path = Classes/View/WidthSlider/DBWidthSlider.h; sourceTree = "<group>"; };
+		E54171D21A0CB4930034DC04 /* DBWidthSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBWidthSlider.m; path = Classes/View/WidthSlider/DBWidthSlider.m; sourceTree = "<group>"; };
+		E54171D51A0CB80D0034DC04 /* DBColorPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBColorPickerVC.h; path = Classes/Controller/ColorPicker/DBColorPickerVC.h; sourceTree = "<group>"; };
+		E54171D61A0CB80D0034DC04 /* DBColorPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBColorPickerVC.m; path = Classes/Controller/ColorPicker/DBColorPickerVC.m; sourceTree = "<group>"; };
 		E5CE600E1A0C742D006413E6 /* DrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CE60121A0C742D006413E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CE60131A0C742D006413E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,9 +46,7 @@
 		E5CE60161A0C742D006413E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E5CE60181A0C742D006413E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E5CE60191A0C742D006413E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E5CE601C1A0C742D006413E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5CE601E1A0C742D006413E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E5CE60211A0C742D006413E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E5CE60271A0C742D006413E6 /* DrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CE602C1A0C742D006413E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CE602D1A0C742D006413E6 /* DrawingBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingBoardTests.m; sourceTree = "<group>"; };
@@ -60,6 +70,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E530F3CF1A63D06700D04103 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E530F3CD1A63CC8F00D04103 /* Default-568h@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E54171C61A0C989D0034DC04 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E54171D41A0CB7E30034DC04 /* Controller */,
+				E54171C71A0C98A60034DC04 /* View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E54171C71A0C98A60034DC04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E54171D01A0CB4700034DC04 /* WidthSlider */,
+				E54171CC1A0CA53A0034DC04 /* ToolBar */,
+				E54171C81A0C98AA0034DC04 /* Board */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E54171C81A0C98AA0034DC04 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				E54171C91A0C98DD0034DC04 /* DBBoardView.h */,
+				E54171CA1A0C98DD0034DC04 /* DBBoardView.m */,
+			);
+			name = Board;
+			sourceTree = "<group>";
+		};
+		E54171CC1A0CA53A0034DC04 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				E54171CD1A0CA5810034DC04 /* DBToolBarView.h */,
+				E54171CE1A0CA5810034DC04 /* DBToolBarView.m */,
+			);
+			name = ToolBar;
+			sourceTree = "<group>";
+		};
+		E54171D01A0CB4700034DC04 /* WidthSlider */ = {
+			isa = PBXGroup;
+			children = (
+				E54171D11A0CB4930034DC04 /* DBWidthSlider.h */,
+				E54171D21A0CB4930034DC04 /* DBWidthSlider.m */,
+			);
+			name = WidthSlider;
+			sourceTree = "<group>";
+		};
+		E54171D41A0CB7E30034DC04 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E54171D91A0CB84F0034DC04 /* ColorPicker */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E54171D91A0CB84F0034DC04 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E54171D51A0CB80D0034DC04 /* DBColorPickerVC.h */,
+				E54171D61A0CB80D0034DC04 /* DBColorPickerVC.m */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
 		E5CE60051A0C742D006413E6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +162,13 @@
 		E5CE60101A0C742D006413E6 /* DrawingBoard */ = {
 			isa = PBXGroup;
 			children = (
+				E530F3CF1A63D06700D04103 /* Resources */,
+				E54171C61A0C989D0034DC04 /* Classes */,
 				E5CE60151A0C742D006413E6 /* AppDelegate.h */,
 				E5CE60161A0C742D006413E6 /* AppDelegate.m */,
 				E5CE60181A0C742D006413E6 /* ViewController.h */,
 				E5CE60191A0C742D006413E6 /* ViewController.m */,
-				E5CE601B1A0C742D006413E6 /* Main.storyboard */,
 				E5CE601E1A0C742D006413E6 /* Images.xcassets */,
-				E5CE60201A0C742D006413E6 /* LaunchScreen.xib */,
 				E5CE60111A0C742D006413E6 /* Supporting Files */,
 			);
 			path = DrawingBoard;
@@ -199,9 +280,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CE601D1A0C742D006413E6 /* Main.storyboard in Resources */,
-				E5CE60221A0C742D006413E6 /* LaunchScreen.xib in Resources */,
 				E5CE601F1A0C742D006413E6 /* Images.xcassets in Resources */,
+				E530F3CE1A63CC8F00D04103 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5CE601A1A0C742D006413E6 /* ViewController.m in Sources */,
+				E54171CB1A0C98DD0034DC04 /* DBBoardView.m in Sources */,
+				E54171D71A0CB80D0034DC04 /* DBColorPickerVC.m in Sources */,
 				E5CE60171A0C742D006413E6 /* AppDelegate.m in Sources */,
+				E54171D31A0CB4930034DC04 /* DBWidthSlider.m in Sources */,
+				E54171CF1A0CA5810034DC04 /* DBToolBarView.m in Sources */,
 				E5CE60141A0C742D006413E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +326,6 @@
 			targetProxy = E5CE60281A0C742D006413E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E5CE601B1A0C742D006413E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5CE601C1A0C742D006413E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E5CE60201A0C742D006413E6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5CE60211A0C742D006413E6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E5CE602F1A0C742D006413E6 /* Debug */ = {
@@ -343,7 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = DrawingBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +420,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = DrawingBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +481,7 @@
 				E5CE60331A0C742D006413E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5CE60341A0C742D006413E6 /* Build configuration list for PBXNativeTarget "DrawingBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +490,7 @@
 				E5CE60361A0C742D006413E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
